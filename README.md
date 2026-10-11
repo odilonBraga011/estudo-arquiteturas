@@ -7,7 +7,8 @@ Plano de estudos **iniciado em 12/10/2026**, projetado para **2 horas por dia, d
 ## Comece aqui
 
 1. [Guia de estudos e rotina diária](docs/GUIA-DE-ESTUDOS.md)
-2. [Roadmap completo de 52 semanas](docs/PLANO-52-SEMANAS.md)
+2. [Roteiro detalhado das primeiras 20 sessões: o que ler, praticar e entregar](docs/ROTEIRO-DIARIO-20-SESSOES.md)
+3. [Roadmap completo de 52 semanas](docs/PLANO-52-SEMANAS.md)
 3. [Primeiros 30 dias — tarefas concretas](docs/PRIMEIROS-30-DIAS.md)
 4. [Fontes, cursos e exercícios](docs/RECURSOS.md)
 5. [Projetos práticos e portfólio](docs/PROJETOS.md)
