@@ -1,64 +1,58 @@
-# Primeiro ciclo — 30 dias (12/10 a 10/11/2026)
+# Primeiras 30 sessões úteis — a partir de 12/10/2026
 
-**Estrutura diária:** 10 min recordação + 30 min estudo + 60 min prática + 15 min revisão + 5 min commit/planejamento.
+**Agenda:** de segunda a sexta-feira, 06:00–08:00 (America/Fortaleza). São 30 sessões em seis semanas; os primeiros 20 dias úteis já estão no Todoist, com tarefas e Issues. A lista abaixo é a referência operacional; a sequência de 52 semanas é ajustável pela avaliação de competência.
 
-## Semana 1: requisitos e fundamentos de arquitetura
-- **D01 (12/10):** diagnóstico (10 perguntas); definir projeto piloto; escrever requisitos funcionais e não funcionais.
-- **D02:** qualidade: performance, confiabilidade, escalabilidade, manutenibilidade, segurança; exemplos mensuráveis.
-- **D03:** restrições e trade-offs; classificar requisitos por prioridade.
-- **D04:** arquiteturas em camadas, modular, hexagonal; escolher uma e explicar exclusões.
-- **D05:** C4 nível 1 (contexto) e nível 2 (containers); desenhar fluxo.
-- **D06:** implementar um endpoint mínimo + testes + README.
-- **D07:** revisão da semana, 15 questões de memória, ADR-0001 e retrospectiva.
+| Sessão | Data | Tarefa |
+|---|---|---|
+| 01 | 12/10 | Diagnóstico, escolha de projeto e requisitos |
+| 02 | 13/10 | Qualidades mensuráveis: desempenho, segurança, confiabilidade |
+| 03 | 14/10 | Trade-offs: camadas, modular e microsserviços |
+| 04 | 15/10 | Diagramas C4 de contexto e containers |
+| 05 | 16/10 | Endpoint, testes, ADR-0001 e revisão |
+| 06 | 19/10 | Big-O; benchmark de buscas |
+| 07 | 20/10 | Arrays, listas e mapas |
+| 08 | 21/10 | Fila, pilha e prioridade |
+| 09 | 22/10 | Árvores, hash e busca em grafos |
+| 10 | 23/10 | Ordenação, benchmark e revisão |
+| 11 | 26/10 | Recursão e memoização |
+| 12 | 27/10 | BFS e DFS |
+| 13 | 28/10 | Processos e threads |
+| 14 | 29/10 | Race conditions e deadlocks |
+| 15 | 30/10 | Fila concorrente, testes e revisão |
+| 16 | 02/11 | DNS, TCP/IP e ciclo de requisição |
+| 17 | 03/11 | HTTP e idempotência |
+| 18 | 04/11 | TLS e segurança de transporte |
+| 19 | 05/11 | Retry, timeout, backoff e cache |
+| 20 | 06/11 | Diagrama de sequência e revisão mensal |
+| 21 | 09/11 | Sistema operacional: processos e escalonamento |
+| 22 | 10/11 | Gerência de memória e recursos |
+| 23 | 11/11 | I/O, arquivos e bloqueio |
+| 24 | 12/11 | Profiling de CPU e memória |
+| 25 | 13/11 | Laboratório de sistema operacional e revisão |
+| 26 | 16/11 | SOLID: responsabilidade única e coesão |
+| 27 | 17/11 | SOLID: aberto/fechado e substituição |
+| 28 | 18/11 | SOLID: segregação e inversão de dependência |
+| 29 | 19/11 | Refatorar caso real com testes |
+| 30 | 20/11 | Revisão de código e retrospectiva |
 
-## Semana 2: algoritmos e estruturas de dados
-- **D08:** notação Big-O; comparar buscas lineares e binárias.
-- **D09:** arrays, listas e mapas; decisões por carga.
-- **D10:** pilhas, filas, prioridades; implementar fila e testes.
-- **D11:** árvores e hashes; resolver 2 problemas.
-- **D12:** ordenação e custo de memória; benchmark local.
-- **D13:** resolver 3 exercícios sem IA, depois obter code review.
-- **D14:** escrever comparativo de complexidade e refazer erros.
+## Estrutura de cada sessão (120 min)
+10 min recordação ativa; 30 min teoria; 60 min prática; 15 min testes/reflexão; 5 min commit e próxima tarefa.
 
-## Semana 3: algoritmos e concorrência
-- **D15:** recursão, programação dinâmica e memoização.
-- **D16:** grafos BFS/DFS com casos de teste.
-- **D17:** processos e threads; experimento simples.
-- **D18:** race conditions, locks e deadlocks; demonstrar falha.
-- **D19:** concorrência, imutabilidade e estruturas thread-safe.
-- **D20:** mini-laboratório: fila de tarefas com concorrência e métricas.
-- **D21:** revisão semanal, questões conceituais e diário.
-
-## Semana 4: redes e protocolos
-- **D22:** camadas TCP/IP e ciclo de resolução DNS.
-- **D23:** HTTP: verbos, códigos, idempotência, cabeçalhos.
-- **D24:** TLS e autenticação de transporte; captura segura local.
-- **D25:** conexão, timeout, retry, backoff; experimento.
-- **D26:** caching HTTP, ETag e CDN (conceitos e demonstração).
-- **D27:** trace de uma requisição ponta a ponta.
-- **D28:** revisão, desenho de sequência, teste aplicado.
-
-## Dias 29 e 30
-- **D29 (09/11):** avaliação integradora (requisitos + algoritmo + redes + refatoração).
-- **D30 (10/11):** revisão de progresso, atualizar habilidades, planejar mês 2.
-
-## Definition of Done de cada dia
-- [ ] 120 minutos dedicados (ou reagendar sem fingir conclusão)
-- [ ] Explicação própria (5–10 linhas)
-- [ ] Experimento/solução/artefato verificável
-- [ ] Ao menos 1 teste ou pergunta crítica
-- [ ] Commit ou registro de impedimento
-
-## Diagnóstico inicial (responda sem pesquisar)
+## Diagnóstico inicial
 1. O que distingue arquitetura de design de código?
 2. Quando usar monólito modular em vez de microsserviços?
-3. O que é coesão e como medir sintomas de baixo acoplamento?
-4. Qual a diferença entre consistência forte e eventual?
-5. O que é idempotência em uma API?
-6. Como investigar p99 de latência?
-7. Como definir SLO e error budget?
-8. Como identificar deadlock?
+3. Como coesão e acoplamento afetam mudanças?
+4. O que é consistência eventual?
+5. Como assegurar idempotência?
+6. Como investigar p99?
+7. Como definir SLO?
+8. O que é deadlock?
 9. O que deve constar num ADR?
-10. O que significa uma migração sem downtime?
+10. Como planejar migração de dados sem downtime?
 
-Avalie cada resposta: 0 (não sei), 1 (parcial), 2 (explico e aplico). Guarde a pontuação inicial; reavalie após 90 dias.
+Pontuação por questão: 0 não sei, 1 parcialmente, 2 explico e aplico. Reavaliar após 90 dias. A cada sexta, documentar evidência, pontos fracos e ação seguinte.
+
+## Links
+- [Todoist](https://app.todoist.com/app/project/6hjRGqrmmQFjgCHw)
+- [Roadmap de 52 semanas](PLANO-52-SEMANAS.md)
+- [Issues no GitHub](https://github.com/odilonBraga011/estudo-arquiteturas/issues)
