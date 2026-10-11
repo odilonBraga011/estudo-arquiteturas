@@ -1,6 +1,6 @@
-# Roadmap de 52 semanas — 14 horas por semana
+# Roadmap de 52 semanas — 10 horas por semana
 
-**Período:** 12/10/2026 a 10/10/2027. **Regra:** cada semana fecha com uma entrega observável e revisão. Avance por competência, não apenas por calendário.
+**Período:** 12/10/2026 a 08/10/2027. **Regra:** cada semana fecha com uma entrega observável e revisão. Avance por competência, não apenas por calendário.
 
 | Semana | Tema | Evidência prática |
 |---|---|---|
@@ -67,6 +67,6 @@
 **Se dois ou mais itens forem “não”, repetir/aprofundar a semana.**
 
 ## Rotação diária
-Segunda: conceitos e exercícios de recordação. Terça: código. Quarta: padrões e modelagem. Quinta: dados/sistemas e benchmarks. Sexta: testes/segurança/operação. Sábado: projeto integrador. Domingo: revisão + retrospectiva.
+Segunda: conceitos e exercícios de recordação. Terça: código. Quarta: padrões e modelagem. Quinta: dados/sistemas e benchmarks. Sexta: testes/segurança/operação. Sábado: projeto integrador. Sexta: testes e retrospectiva na sessão de estudo (além da prática da semana).
 
 **Temas de aprofundamento após o primeiro ano:** compiladores, teoria de linguagens e tipos, sistemas operacionais avançados, consenso formal, sistemas embarcados, IA/ML systems, privacy engineering, fintech, arquitetura de dados em escala, sistemas críticos, liderança/staff+ e arquitetura corporativa.
