@@ -18,11 +18,11 @@ Formar visão de **engenharia completa**, não apenas conhecer nomes de padrões
 - **D+1:** recuperação ativa sem consulta.
 - **D+7:** mini desafio do mesmo princípio.
 - **D+30:** aplicar conceito em projeto diferente.
-- **A cada domingo:** revisar métricas, dificuldades e a próxima semana.
+- **A cada sexta-feira:** revisar métricas, dificuldades e a próxima semana.
 - **A cada 13 semanas:** projeto/avaliação de integração.
 
 ## Gestão de tempo
-Reserve um bloco contínuo de 2h. Se um compromisso o impedir, **reagende a sessão**, e não declare horas não cumpridas. Faça pausas breves quando necessário; foque qualidade de estudo. Registre horas **efetivas**.
+Reserve um bloco contínuo de 2h, das 06:00 às 08:00, de segunda a sexta-feira. Se um compromisso o impedir, **reagende a sessão**, e não declare horas não cumpridas. Faça pausas breves quando necessário; foque qualidade de estudo. Registre horas **efetivas**.
 
 ## Aprender com IA sem virar dependente
 Tente sozinho antes. Peça:
