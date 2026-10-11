@@ -1,6 +1,6 @@
 # Formação contínua em Engenharia e Arquitetura de Software
 
-Plano de estudos **iniciado em 12/10/2026**, projetado para **2 horas por dia, 7 dias por semana** (14 h/semana; ~728 h em 52 semanas). Esta é uma trilha adaptativa, não uma promessa de dominar tudo em um ano.
+Plano de estudos **iniciado em 12/10/2026**, projetado para **2 horas por dia, de segunda a sexta-feira** (10 h/semana; 520 h em 52 semanas). Esta é uma trilha adaptativa, não uma promessa de dominar tudo em um ano.
 
 > Objetivo: sair da memorização de padrões e evoluir para **projetar, implementar, medir, documentar, defender e operar sistemas** com consciência de trade-offs.
 
@@ -24,7 +24,7 @@ Plano de estudos **iniciado em 12/10/2026**, projetado para **2 horas por dia, 7
 | 100–115 | Testes, análise de trade-offs e registro do que aprendeu |
 | 115–120 | Commit, checklist e definição do próximo passo |
 
-A **entrega de cada semana** deve ser verificável: código funcionando, testes, diagrama, ADR, benchmark, postmortem ou comparação fundamentada. Domingo é dia de integração/revisão com prática.
+A **entrega de cada semana** deve ser verificável: código funcionando, testes, diagrama, ADR, benchmark, postmortem ou comparação fundamentada. A revisão integradora ocorre às sextas-feiras.
 
 ## Calendário semanal
 
@@ -34,9 +34,8 @@ A **entrega de cada semana** deve ser verificável: código funcionando, testes,
 | Terça | Código e padrões |
 | Quarta | Design e experimentação |
 | Quinta | Dados, desempenho e sistemas |
-| Sexta | Qualidade, segurança e operações |
-| Sábado | Projeto integrador |
-| Domingo | Revisão espaçada, testes e retrospectiva |
+| Sexta | Qualidade, segurança, operações e revisão |
+| Sexta-feira (final da sessão) | Revisão da semana e retrospectiva |
 
 Os **temas de cada dia** vêm da semana correspondente no [plano de 52 semanas](docs/PLANO-52-SEMANAS.md).
 
